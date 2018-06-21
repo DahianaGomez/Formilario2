@@ -2,25 +2,33 @@
 <html>
 <head>
 	<title></title>
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-<button>
-      Acceder al Formulario
+<button class="boton1">
+     <strong> Acceder al Formulario</strong>
     </button>
-    <p><strong>Fecha de solicitud</strong></p>
-    <input type="date" placeholder="dd/ mm / aaaa">
-    <p><strong>Nombre Completo</strong></p>
-    <input type="text" size="15" maxlength="30" placeholder="Pepito Perez" name="nombre">
+
+    <section class="wrapper">
+    <a><p><strong>Fecha de solicitud</strong></p>
+    <input class="date" type="date" placeholder="mm/ dd / yyyy" maxlength="70"></a>
+    </section>
+
+<section class="Formulario">
+    <p ><strong>Nombre Completo</strong></p>
+    <input class="cuadro" type="text" size="15" maxlength="30" placeholder="Pepito Perez" name="nombre">
+    
     <p><strong>Fecha de Nacimiento</strong></p>
-    <input type="date">
+    <input class="cuadro" type="date">
+  
     <p><strong>Correo Electronico</strong></p>
-    <input type="email" placeholder="alguien@ejemplo.com">
+    <input class="cuadro"  type="email" placeholder="alguien@ejemplo.com">
 <p><strong>Telefono</strong></p>
-<input type="number" placeholder="5557776">
-<p><strong>Seleccione su genero</strong></p> <input type="checkbox" > Masculino <input type="checkbox"> Femenino <input type="checkbox" > Otro
+<input class="cuadro" type="number" placeholder="5557776">
+<p><strong>Seleccione su genero</strong></p> <input class="cuadro"  type="checkbox" > Masculino <input class="cuadro"  type="checkbox"> Femenino <input class="cuadro"  type="checkbox" > Otro
 <p><strong>Departamento</strong></p>
      <select>
-     <option>Seleccionar departamento</option>
+     <option class="cuadro" >Seleccionar departamento</option>
       <option>Antioquia</option>  
   <option>Amazonas</option>
   <option>Arauca</option>  
@@ -58,7 +66,7 @@
 
        <p><strong>Ciudad</strong></p>
        <select>
-       	<option>Selecciona una ciudad</option>
+       	<option class="cuadro" >Selecciona una ciudad</option>
        	
        
 <option value="1">Abriaqui</option>
@@ -1164,39 +1172,42 @@
 </select>
 
 <p><strong>Direccion</strong></p>
-<input type="text" size="15" maxlength="30" placeholder="Cra 22 #22c-22">
+<input class="cuadro" type="text" size="15" maxlength="30" placeholder="Cra 22 #22c-22">
 
 <p><strong>Seleccione el tipo de domicilio:</strong></p>
- <input type="radio"> Casa <input type="radio"> Apartamento <input type="radio"> Finca <input type="radio"> Otro
+ <input type="radio"> Casa <input type="radio"> Apartamento <input  type="radio"> Finca <input type="radio"> Otro
 
  <p><strong>Especifique "otro"</strong></p>
- <input type="text">
+ <input class="cuadro"  type="text">
 
 <p><strong>Numero de integrantes del domicilo</strong></p>
-<input type="text">
+<input class="cuadro" type="text">
 
 <p><strong>¿Porque quieres adoptar una mascota?</strong></p>
-<input type="text">
+<input class="cuadro" type="text">
 
 <p><strong>¿Tienes experiencia con los animales?</strong></p>
 <input type="radio"> Si <input type="radio"> No
 
 <p><strong>¿Tienes otras mascotas?</strong></p>
-<input type="radio"> Si <input type="radio"> No
+<input  type="radio"> Si <input type="radio"> No
 
 <p><strong>¿Cuales son tus ingresos mensuales?</strong></p>
-<input type="number" placeholder="$500.000">
+<input class="cuadro" type="number" placeholder="$500.000">
 
 <p><strong>¿cuantos ingresos dispones para tu mascota?</strong></p>
-<input type="number" placeholder="$200.000">
+<input class="cuadro" type="number" placeholder="$200.000">
 
 <p><strong>¿Cuanto tiempo dispones para tu mascota?</strong></p>
-<input type="text">
+<input class="cuadro" type="text">
 
 <p><strong>¿En caso de estar ausente por un tiempo, ¿Quien cuidara de tu amscota?</strong></p>
-<input type="text">
+<input class="cuadro"  type="text">
+</section>
 
-<p><button>Guardar </button></p>
-<p><button>Boton de respuestas</button></p>
+<footer class="final">
+<p><button class="boton2">Guardar </button></p>
+</footer>
+<p><button class="boton3">Boton de respuestas</button></p>
 </body>
 </html>
